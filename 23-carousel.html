@@ -12,6 +12,72 @@
       <h1 class="mb-5">Carousel</h1>
 
       <!-- Carousel -->
+      <div class="carousel slide" id="slider">
+        <!-- INDICATORS-->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#slider"
+          ></button>
+          <button
+            class=""
+            data-bs-slide-to="1"
+            data-bs-target="#slider"
+          ></button>
+          <button
+            class=""
+            data-bs-slide-to="2"
+            data-bs-target="#slider"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/100" alt="" class="d-block w-100" />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>Random Title 1</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/50" alt="" class="d-block w-100" />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>Random Title 2</h5>
+              <p>Lorem ipsum dolor sit amet. 2</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/150" alt="" class="d-block w-100" />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>Random Title 3</h5>
+              <p>Lorem ipsum dolor sit amet. 3</p>
+            </div>
+          </div>
+        </div>
+        <!-- BUTTONS -->
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <!-- Don't go past here -->
     </div>
